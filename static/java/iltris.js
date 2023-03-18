@@ -117,11 +117,10 @@ for (let i = 0; i < cella.length; i++) {
 				".output"
 			).innerHTML = `ha vinto il player ${currentPlayer}`;
 			document.querySelector(".output").classList.add("colorOutput");
-			//document.querySelectorAll(".button").classList.add("noClick");
+		
 		} else if (count === 9 && !vittoria) {
 			document.querySelector(".output").innerHTML = `pareggio!`;
 			document.querySelector(".output").classList.add("colorOutput");
-			//document.querySelectorAll(".button").classList.add("noClick");
 		}
 
 
