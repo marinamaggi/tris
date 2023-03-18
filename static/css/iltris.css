@@ -1,0 +1,61 @@
+#prima-fila .cella:nth-child(1),
+#seconda-fila .cella:nth-child(1),
+#seconda-fila .cella:nth-child(2) {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+#prima-fila .cella:nth-child(2) {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+#prima-fila .cella:nth-child(3),
+#seconda-fila .cella:nth-child(3) {
+  border-bottom: 2px solid black;
+}
+
+#terza-fila .cella:nth-child(1) {
+  border-right: 2px solid black;
+}
+
+#seconda-fila .cella:nth-child(2) {
+  border-right: 2px solid black;
+}
+
+.cella {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+
+.contenitore{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 200px;
+}
+
+.base{
+  margin-bottom: 150px;
+}
+
+a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "Vonem Regular" ;
+  text-decoration: none;
+  color: cyan;
+    font-size: 40px;
+}
